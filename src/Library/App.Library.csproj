@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<!--Reference any other sibling project except for itself, tests and providers-->
+		<ProjectReference
+			Include="../*/*.csproj;../*/*/*.csproj"
+			Exclude="../*/$(MSBuildProjectFile);../*/*Test*.csproj;../*/*.Provider.*.csproj;../Host/App.Host.csproj"/>
+	</ItemGroup>
+
+</Project>
