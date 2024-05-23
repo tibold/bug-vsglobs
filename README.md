@@ -13,6 +13,8 @@ The Project references are also not displayed under Dependencies.
 
 ## Tested Versions
 
-* dotnet 8.0.300
-* Visual Studio Version 17.10.0
-* Visual Studio Preview Version 17.11.0 Preview 1.0
+* ✔️ dotnet 8.0.205
+* ✔️ dotnet 8.0.300
+* ✔️ Visual Studio 2022 Version 17.9.7
+* ❌ Visual Studio 2022 Version 17.10.0
+* ❌ Visual Studio 2022 Preview Version 17.11.0 Preview 1.0
